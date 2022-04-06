@@ -43,9 +43,6 @@ header nav {
   header nav {
     top: unset;
     bottom: 0;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
   }
   header nav p {
     display: none;
@@ -60,18 +57,14 @@ header nav ul {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  gap: 5rem;
   list-style: none;
   margin-right: 5vw;
-}
-
-@media (max-width: 767px) {
-  header nav ul {
-    gap: 3rem;
-  }
 }
 
 @media (max-width: 480px) {
@@ -81,12 +74,27 @@ header nav ul {
   }
 }
 
+@media (max-width: 767px) {
+  header nav ul {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+}
+
+header nav ul li {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
 header nav ul a {
   text-decoration: none;
   font-size: 1.2rem;
   font-family: 'IBM Plex Serif', serif;
   font-weight: bold;
   color: #001219;
+  margin-left: 5rem;
 }
 
 header nav ul a svg {
@@ -95,23 +103,25 @@ header nav ul a svg {
 
 @media (max-width: 767px) {
   header nav ul a {
-    font-size: 1.08rem;
+    font-size: 1.06rem;
+    margin-left: 2.5rem;
   }
 }
 
 @media (max-width: 480px) {
   header nav ul a {
+    margin: 0;
     font-size: 0.9rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   header nav ul a svg {
     display: block;
@@ -176,6 +186,7 @@ header nav p {
   height: 86vh;
   background-color: #F5F5F5;
   border-radius: 0.9rem;
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -184,7 +195,6 @@ header nav p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  position: relative;
 }
 
 .home .HomeContainer .boxRedes {
@@ -385,22 +395,17 @@ header nav p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: 'Poppins', sans-serif;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  font-family: 'Poppins', sans-serif;
 }
 
 @media (max-width: 1000px) {
   .AboutMe .ContainerAboutMe {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -614,7 +619,7 @@ header nav p {
 
 @media (max-width: 480px) {
   .depoimentos {
-    margin-bottom: 6rem;
+    margin-bottom: 5rem;
   }
 }
 
@@ -694,19 +699,19 @@ header nav p {
 
 .depoimentos .cards .card .ContainerDepoimento {
   margin: 0.313rem 0.938rem 10px;
+  gap: 0.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 0.5rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .depoimentos .cards .card .ContainerDepoimento p {
