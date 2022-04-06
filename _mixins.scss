@@ -1,0 +1,38 @@
+
+@mixin responsive-small-desktop{
+
+    @media (max-width: 1000px){
+        @content;
+}
+}
+
+@mixin responsive-tablet{
+    
+    @media (max-width: 767px){
+        @content;
+}
+}
+
+@mixin responsive-smartphone{
+    
+    @media (max-width: 480px){
+        @content;
+}
+}
+
+@mixin title-formatting{
+    font-size: 2rem;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+@mixin flex-basic{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
