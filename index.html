@@ -21,9 +21,9 @@
             </div>
 
             <ul>
-                <li><a href="#TopZero"><i data-feather="home"></i> Inicio</a></li>
-                <li><a href="#AboutMe"> <i data-feather="user"></i> Sobre mim</a></li>
-                <li><a href="#depoimentos"><i data-feather="message-circle"></i> Depoimentos</a></li>
+                <li><a href="#top-zero"><i data-feather="home"></i> Inicio</a></li>
+                <li><a href="#container-aboutMe"> <i data-feather="user"></i> Sobre mim</a></li>
+                <li><a href="#container-depositions"><i data-feather="message-circle"></i> Depoimentos</a></li>
             </ul>
             
         </nav>
@@ -31,42 +31,44 @@
     </header>
 
     <main>
-        <div id="TopZero">inicio</div>
+        <div id="top-zero">inicio</div>
 
-        <img id="imgWpp" src="imgs/icons/imgwpp.png" alt="">
+        <img id="img-wpp" src="imgs/icons/imgwpp.png" alt="">
 
-        <section id="home" class="home">
+        <section id="container-home" class="container-home">
 
-           <div class="HomeContainer">
+           <div class="box-home">
 
-            <div class="boxRedes">
+               <div class="box-left">
+                   
+                    <h1>
+                        Olá, eu sou a fulana, sua futura nutricionista!
+                    </h1>
+
+                    <p>Não só a vontade de uma vida saudável basta, é necessário avaliar a realidade e 
+                        traçar objetivos claros, respeitando as individualidades, nessa caminhada irei lhe ajudar.
+                    </p>
+ 
+                    <a class="btn" href="#AboutMe">Saiba mais</a>
+                    
+                </div>
+
+                <img src="imgs/img nutri.png" alt="imagem nutricionista">
+
+                <div class="box-redes">
                 <i data-feather="instagram" alt="imagem da logo da rede social Instagram"></i>
                 <i data-feather="facebook" alt="imagem da logo da rede social facebook"></i>
-            </div>
-
-               <div class="apresentacao">
-
-                <h1>Olá, eu sou a fulana, sua futura nutricionista!</h1>
-                <p>Não só a vontade de uma vida saudável basta, é necessário avaliar a realidade e 
-                    traçar objetivos claros, respeitando as individualidades, nessa caminhada irei lhe ajudar.
-                </p>
- 
-                <a class="btn" href="#AboutMe">Saiba mais</a>
- 
-               </div>
-
-               <img src="imgs/img nutri.png" alt="imagem nutricionista">
-           </div>
-            
+                </div>
+           </div>          
         </section>
 
-        <section id="AboutMe" class="AboutMe">
+        <section id="container-aboutMe" class="container-aboutMe">
 
             <h2>Sobre mim</h2>
             
-            <div class="ContainerAboutMe">
+            <div class="box-aboutMe">
 
-                <div class="boxfigure">
+                <div class="box-figure">
                     <figure>
                         <div class="boxImg"><img class="photoImgNutri" src="imgs/img nutri aboutme.png" alt="foto da nutricionista"></div>
         
@@ -76,17 +78,17 @@
                     </figure>
                 </div>
     
-                <div class="DescriptionCards">
-                    <div class="Disc1">Sou formada em Nutrição pela ***, e atuo profissionalmente desde ****.
+                <div class="description-cards">
+                    <div class="disc-1">Sou formada em Nutrição pela ***, e atuo profissionalmente desde ****.
                         <img id="imgGraduation" src="imgs/icons/graduacao.png" alt="icone graduação">
                     </div>
 
-                    <div class="Disc2"> Sou pós graduada em Obesidade e Emagrecimento pela **** e em Nutrição 
+                    <div class="disc-2"> Sou pós graduada em Obesidade e Emagrecimento pela **** e em Nutrição 
                         Clínica e Reeducação alimentar (****).
                         <img id="imgBooks" src="imgs/icons/livros.png" alt="icone pos graduação">
                     </div>
 
-                    <div class="Disc3"> Minha proposta como profissional é auxiliar meu acompanhado em um caminho saudável 
+                    <div class="disc-3"> Minha proposta como profissional é auxiliar meu acompanhado em um caminho saudável 
                         e indidual, através da reeducação alimentar programada e equilibrada, respeitando todas individualidades.</div>
                     
                 </div>
@@ -96,11 +98,11 @@
         </section>
 
         
-        <section id="depoimentos" class="depoimentos">
+        <section id="container-depositions" class="container-depositions">
 
             <h2>Depoimentos</h2>
 
-            <div class="cards">
+            <div class="container-cards">
 
                 <div class="card">
 
@@ -108,11 +110,11 @@
 
                         <img class="imgperfil" src="imgs/suzana-matos.jpg" alt="foto da cliente suzana matos">
 
-                        <div class="ContainerDepoimento">
+                        <div class="card-depositions">
 
                             <figcaption>Suzana Matos</figcaption>
 
-                            <div class="ContainerStars">
+                            <div class="container-stars">
                                 <img class="star"  src="imgs/icons/star.png" alt="icone estrela">
                                 <img class="star"  src="imgs/icons/star.png" alt="icone estrela">
                                 <img class="star"  src="imgs/icons/star.png" alt="icone estrela">
@@ -133,13 +135,13 @@
 
                     <figure>
 
-                        <img class="imgperfil" src="imgs/giovana souza.jpg" alt="foto da cliente suzana matos">
+                        <img class="imgperfil" src="imgs/giovana souza.jpg" alt="foto da cliente giovana souza">
 
-                        <div class="ContainerDepoimento">
+                        <div class="card-depositions">
 
                             <figcaption>Giovana Souza</figcaption>
 
-                            <div class="ContainerStars">
+                            <div class="container-stars">
                                 <img class="star"  src="imgs/icons/star.png" alt="icone estrela">
                                 <img class="star"  src="imgs/icons/star.png" alt="icone estrela">
                                 <img class="star"  src="imgs/icons/star.png" alt="icone estrela">
@@ -160,13 +162,13 @@
 
                     <figure>
 
-                        <img class="imgperfil" src="imgs/claudia lima.jpg" alt="foto da cliente suzana matos">
+                        <img class="imgperfil" src="imgs/claudia lima.jpg" alt="foto da cliente cláudia lima">
 
-                        <div class="ContainerDepoimento">
+                        <div class="card-depositions">
 
                             <figcaption>Cláudia Lima</figcaption>
 
-                            <div class="ContainerStars">
+                            <div class="container-stars">
                                 <img class="star"  src="imgs/icons/star.png" alt="icone estrela">
                                 <img class="star"  src="imgs/icons/star.png" alt="icone estrela">
                                 <img class="star"  src="imgs/icons/star.png" alt="icone estrela">
@@ -183,22 +185,14 @@
 
                 </div>
 
-
-
             </div>
         </section>
 
 
     </main>
 
-
-    <footer>
-
-    </footer>
-
     <script>
         feather.replace()
     </script>
-    <script src="index.js"></script>
 </body>
 </html>

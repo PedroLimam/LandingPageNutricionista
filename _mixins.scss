@@ -43,3 +43,10 @@
     justify-content: center;
     align-items: center;
 }
+
+
+@mixin flex-evenlyCenter {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
