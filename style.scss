@@ -40,7 +40,7 @@ header{
             top: unset;
             bottom: 0;
 
-            p{
+            .logo-nutricionista{
                 display: none;
             }
         }
@@ -101,8 +101,11 @@ header{
             }
         }
 
-        p{
+        .logo-nutricionista{
             margin-left: 5vw;
+            text-decoration: none;
+            color: $black-1;
+            font-weight: bold;
         }
 
     }
@@ -148,7 +151,7 @@ header{
         border-radius: 0.9rem;
         position: relative;
 
-        @include flex-aroundCenter();
+        @include flex-row-justify(space-around);
 
         @include responsive-small-desktop(){
             height: fit-content;
@@ -242,7 +245,7 @@ header{
             left: 1rem;
             border-radius: 0 0 40% 40%;
             
-            @include flex-aroundCenter();
+            @include flex-row-justify(space-around);
 
             @include responsive-small-desktop(){
                 background-color: $lilas;
@@ -258,8 +261,6 @@ header{
                 &:hover{
                     transform: scale(1.1);
                 }
-                
-                
             }
         }
         
@@ -338,10 +339,10 @@ header{
             left: 4.375rem;
             top: 5.625rem;
             }
+
             figure{
                 
                 .boxImg{
-
                     width: 14.7rem;
                     height: 14.7rem;
                     background-color: #ddbea9;
@@ -352,7 +353,6 @@ header{
                     z-index: 3;
 
                     .photoImgNutri{
-                        
                         border-radius: 0 0 0.5rem 0.5rem;
                         position: relative;
                         z-index: 5;
@@ -366,7 +366,6 @@ header{
                 }
 
                 figcaption{
-                    
                     h3{
                         font-size: 1.063rem;
                     }
@@ -394,7 +393,7 @@ header{
                 text-align: center;
                 transition: 30ms;
     
-                @include flex-center();
+                @include flex-row-justify(center);
     
                 @include responsive-smartphone(){
                     max-width: 17.5rem;
@@ -463,6 +462,7 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+
     font-family: 'Josefin Sans', sans-serif;
 
     @include responsive-small-desktop(){
@@ -492,7 +492,7 @@ header{
         margin: 0 3.125;
         flex-wrap: wrap;
 
-        @include flex-evenlyCenter();
+        @include flex-row-justify(space-evenly);
 
         .card{
             height: 13.125rem;
@@ -504,7 +504,7 @@ header{
             position: relative;
             transition: all 120ms;
 
-            @include flex-center();
+            @include flex-row-justify(center);
             
             @include responsive-small-desktop(){
                 margin: 0 1rem 6rem 0;
@@ -522,9 +522,7 @@ header{
             .card-depositions{
                 margin: 0.313rem 0.938rem 10px;
                 gap: 0.5rem;
-
-                @include flex-aroundCenter();
-                flex-direction: column;
+                @include flex-column-justify(space-around);
                 
                 p{
                     text-align: justify;
