@@ -19,7 +19,7 @@ O projeto teve como foco criar uma <strong>Landing page</strong> para uma profis
 
 <strong>-Variáveis:</strong> Foram utilizadas para armazenamento de cores 
 
-<strong>-Diferentes arquivos SCSS:</strong> Foi utilizado diferentes arquivos SCSS para melhorar organização, que depois são compilados em um único arquivo CSS.
+<strong>-Diferentes arquivos SCSS:</strong> Com a capacidade de importar arquivos para dentro de outros, foi utilizado diferentes arquivos SCSS para melhorar organização, que depois são compilados em um único arquivo CSS.
 
 
 
