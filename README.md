@@ -11,7 +11,15 @@ O projeto teve como foco criar uma <strong>Landing page</strong> para uma profis
 
 <strong>-HTML:</strong> Busquei utilizar <strong>tags semânticas</strong>, isso é, tags que servem para <strong>contextos específicos</strong> e melhoram a acessibilidade e organização da aplicação.
 
-<strong>SASS/SCSS:</strong> É um <strong>pré-processador CSS</strong> utilizado para aumentar produtividade e organização na aplicação, uso da forma de escrita como <strong>Nesting</strong>, uso de <strong>Mixins</strong> para isolar trechos de códigos para <strong>reutilização</strong>, criação de <strong>variáveis</strong>, capacidade de criar <strong>diferentes arquivos SCSS</strong> para melhorar organização que depois serão compilados em um único arquivo CSS, melhoria de <srong>compatibilidade entre browsers</strong> e dispositivos com a adição automática de <strong>prefixos</strong> como -moz- e -webkit-.
+<strong>SASS/SCSS:</strong> É um <strong>pré-processador CSS</strong> utilizado para aumentar produtividade e organização de uma aplicação, nessa <strong>utilizamos:</strong>
+
+<strong>-Nesting:</strong> Método de escrita do SCSS que foi utilizado
+
+<strong>-Mixins:</strong> Foi utilizado para trechos de códigos visando <strong>reutilização</strong>, e também sua forma semelhante as funções, recebendo argumentos.
+
+<strong>-Variáveis:</strong> Foram utilizadas para armazenamento de cores 
+
+<strong>-Diferentes arquivos SCSS:</strong> Foi utilizado diferentes arquivos SCSS para melhorar organização, que depois são compilados em um único arquivo CSS.
 
 
 
