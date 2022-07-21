@@ -3,7 +3,7 @@
 O projeto teve como foco criar uma <strong>Landing page</strong> para uma profissional de nutrição fictícia.
 
 
-<img width="400px" heigth="400px" src="" alt="imagem seção inicial da landing page">
+<img width="400px" heigth="400px" src="https://pedrolimam.github.io/LandingPageNutricionista/" alt="imagem seção inicial da landing page">
 
 <strong>Acesse: </strong>
 
