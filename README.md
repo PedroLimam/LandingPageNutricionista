@@ -15,4 +15,4 @@ O projeto teve como foco criar uma <strong>Landing page</strong> para uma profis
 
 
 
-<strong>Esse projeto não houve alteração com melhorias, como adição de interações mais complexas, pois deixo como exemplo para registrar minha evolução ao longo do tempo.</strong>
+<strong>OBS: Esse projeto não houve alteração com melhorias, como adição de interações mais complexas, pois deixo como exemplo para registrar minha evolução ao longo do tempo.</strong>
