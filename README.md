@@ -1,4 +1,4 @@
-# # Landing page com tema de uma profissional de nutrição
+# # Landing page profissional de nutrição
 
 O projeto teve como foco criar uma <strong>Landing page</strong> para uma profissional de nutrição fictícia.
 
