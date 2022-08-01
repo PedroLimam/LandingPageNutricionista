@@ -15,9 +15,9 @@ O projeto teve como foco criar uma <strong>Landing page</strong> para uma profis
 
 <strong>-Nesting:</strong> Método de escrita do SCSS que foi utilizado
 
-<strong>-Mixins:</strong> Foi utilizado para trechos de códigos visando <strong>reutilização</strong>, e também sua forma semelhante as funções, recebendo argumentos.
+<strong>-Mixins:</strong> Foi utilizado para trechos de códigos fixos visando <strong>reutilização</strong>, e também sua forma semelhante as funções, recebendo argumentos, dando flexibilidade na utilização.
 
-<strong>-Variáveis:</strong> Foram utilizadas para armazenamento de cores 
+<strong>-Variáveis:</strong> Foram utilizadas para armazenamento de cores.
 
 <strong>-Diferentes arquivos SCSS:</strong> Com a capacidade de importar arquivos para dentro de outros, foi utilizado diferentes arquivos SCSS para melhorar organização, que depois são compilados em um único arquivo CSS.
 
